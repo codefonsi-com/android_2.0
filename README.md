@@ -11,3 +11,9 @@ npm cache clean --force
 chmod +x ./build.sh
 
 ./build.sh
+
+
+
+
+setup tauri https://v1.tauri.app/v1/api/js/app/
+npm run tauri dev # from my-svelte-project
