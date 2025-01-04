@@ -1,5 +1,5 @@
 {
-  "name": "@largescaleapps/my-js-helpers",
+  "name": "my-js-helpers",
   "version": "0.1.5",
   "type": "module",
   "scripts": {
@@ -7,7 +7,7 @@
     "build-types": "tsc --declaration --emitDeclarationOnly --outDir ./dist",
     "build-lib": "vite build",
     "build": "npm run clean && npm run build-lib && npm run build-types",
-    "pack": "npm pack; mv my-js-helpers-0.1.5.tgz ../my-js-helpers-0.1.5.tgz",
+    "pack": "npm pack; cp my-js-helpers-0.1.5.tgz ../my-svelte-project/my-js-helpers-0.1.5.tgz",
     "all": "npm run build && npm run pack",
     "pub": "npm publish --access public",
     "test": "vitest run",

@@ -1,16 +1,9 @@
-# Large Scale Apps with Svelte and TypeScript
+removed largescaleapps/my-js-helper from npm online package to offline package for now 
 
-[![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/3617-shield.svg)](https://madewithsvelte.com/p/large-scale-apps-with-svelte-and-typescript/shield-link)
+delete all package-lock.json files 
 
-### Companion code for the book:
-<img src="readme-images/svelte-typescript-300.png" width="80px" /> 
+npm cache clean --force
 
-[Large Scale Apps with Svelte and TypeScript](
-https://leanpub.com/svelte-typescript "Large Scale Apps with Svelte and TypeScript")
+chmod +x ./build.sh
 
-
-### Note
-The folder my-svelte-project contains the main project built throughout the to the book.
-
-### Remarks
-TODO
+./build.sh
